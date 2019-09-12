@@ -60,10 +60,11 @@ class MainActivity : AppCompatActivity() {
             override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
                 super.onScrolled(recyclerView, dx, dy)
                 val firstVisibleItemCount = linearLayoutManager.findFirstVisibleItemPosition()
+                //一个itme的宽度
                 val w =
                     (resources.displayMetrics.widthPixels - (resources.displayMetrics.density * 65 + 0.5)) / 4
-                val viewItem =
-                    linearLayoutManager.findViewByPosition(firstVisibleItemCount)
+                //第一个view
+                val viewItem = linearLayoutManager.findViewByPosition(firstVisibleItemCount)
                 val left = viewItem!!.left.toFloat() * 1.0f / w
                 setScroll(firstVisibleItemCount, left)
             }
@@ -76,13 +77,13 @@ class MainActivity : AppCompatActivity() {
                         (resources.displayMetrics.widthPixels - (resources.displayMetrics.density * 16 + 0.5)) / 4
                     val firstVisibleItemCount = linearLayoutManager.findFirstVisibleItemPosition()
                     val findViewByPosition =
-                        recyclerView.layoutManager!!.findViewByPosition(firstVisibleItemCount)
+                        linearLayoutManager.findViewByPosition(firstVisibleItemCount)
                     if (findViewByPosition != null) {
                         val left = findViewByPosition.left
                         if (left == 0) {
                             return
                         }
-                        if (findViewByPosition!!.left.toFloat() * 1.0f / w > -0.5f) {
+                        if (findViewByPosition.left.toFloat() * 1.0f / w > -0.5f) {
                             recyclerView.smoothScrollBy(left, 0)
                         } else {
                             recyclerView.smoothScrollBy((w + left).toInt(), 0)
@@ -96,6 +97,7 @@ class MainActivity : AppCompatActivity() {
     private fun setScroll(firstVisibleItemCount: Int, left: Double) {
         val mar = resources.displayMetrics.density * 55 + 0.5
         val mar1 = resources.displayMetrics.density * 15 + 0.5
+        //动态改变View的margin
         setMargin(firstVisibleItemCount, mar)
         setMargin(firstVisibleItemCount + 1, mar)
         setMargin(firstVisibleItemCount + 2, mar)

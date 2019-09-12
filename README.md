@@ -1,0 +1,2 @@
+# superrecyclerview
+仿1号店超级单品，recyclerView可见最后一个item放大

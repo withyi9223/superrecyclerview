@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">superrecyclerview</string>
+
+
+    <string name="json">"[\n" +
+                "    {\n" +
+                "        \"activityPrice\": \"0.01\",\n" +
+                "        \"goodsId\": 6038,\n" +
+                "        \"goodsName\": \"911秒杀1\",\n" +
+                "        \"labelPrice\": \"0.01\",\n" +
+                "        \"masterPicUrl\": \"http://dotnettest.jpark.vip/487aac26b4804495ac73a4135f55f0b0?imageView2/2/h/336\",\n" +
+                "        \"oldlabelPrice\": \"0.01\",\n" +
+                "        \"shopId\": 3768,\n" +
+                "        \"skuId\": 4682,\n" +
+                "        \"skuName\": \"商品名称:18K红钻石（白）戒指;成色:18K红;品类:戒指;石类:钻石（白）;尺寸:66;主石重(ct):0.002;副石重(ct):0;净金重(g):0.055;总重量:5\",\n" +
+                "        \"snatchDiscount\": \"0.90\",\n" +
+                "        \"snatchIsEnd\": 0,\n" +
+                "        \"snatchShopNumber\": 0,\n" +
+                "        \"snatchShopTotal\": 5,\n" +
+                "        \"stockNum\": 10\n" +
+                "    },\n" +
+                "    {\n" +
+                "        \"activityPrice\": \"0.01\",\n" +
+                "        \"goodsId\": 6040,\n" +
+                "        \"goodsName\": \"911秒杀3\",\n" +
+                "        \"labelPrice\": \"0.01\",\n" +
+                "        \"masterPicUrl\": \"http://dotnettest.jpark.vip/13c4ce0734994c73948da8e95e72d5b9?imageView2/2/h/336\",\n" +
+                "        \"oldlabelPrice\": \"0.01\",\n" +
+                "        \"shopId\": 3770,\n" +
+                "        \"skuId\": 4684,\n" +
+                "        \"skuName\": \"商品名称:18K红钻石（白）戒指;成色:18K红;品类:戒指;石类:钻石（白）;尺寸:66;主石重(ct):0.002;副石重(ct):0;净金重(g):0.055;总重量:5\",\n" +
+                "        \"snatchDiscount\": \"0.90\",\n" +
+                "        \"snatchIsEnd\": 0,\n" +
+                "        \"snatchShopNumber\": 0,\n" +
+                "        \"snatchShopTotal\": 5,\n" +
+                "        \"stockNum\": 10\n" +
+                "    },\n" +
+                "    {\n" +
+                "        \"activityPrice\": \"0.01\",\n" +
+                "        \"goodsId\": 6041,\n" +
+                "        \"goodsName\": \"911秒杀4\",\n" +
+                "        \"labelPrice\": \"0.01\",\n" +
+                "        \"masterPicUrl\": \"http://dotnettest.jpark.vip/13c4ce0734994c73948da8e95e72d5b9?imageView2/2/h/336\",\n" +
+                "        \"oldlabelPrice\": \"0.01\",\n" +
+                "        \"shopId\": 3771,\n" +
+                "        \"skuId\": 4685,\n" +
+                "        \"skuName\": \"商品名称:18K红钻石（白）戒指;成色:18K红;品类:戒指;石类:钻石（白）;尺寸:66;主石重(ct):0.002;副石重(ct):0;净金重(g):0.055;总重量:5\",\n" +
+                "        \"snatchDiscount\": \"0.90\",\n" +
+                "        \"snatchIsEnd\": 0,\n" +
+                "        \"snatchShopNumber\": 0,\n" +
+                "        \"snatchShopTotal\": 5,\n" +
+                "        \"stockNum\": 10\n" +
+                "    },\n" +
+                "    {\n" +
+                "        \"activityPrice\": \"0.01\",\n" +
+                "        \"goodsId\": 6042,\n" +
+                "        \"goodsName\": \"911秒杀5\",\n" +
+                "        \"labelPrice\": \"0.01\",\n" +
+                "        \"masterPicUrl\": \"http://dotnettest.jpark.vip/13c4ce0734994c73948da8e95e72d5b9?imageView2/2/h/336\",\n" +
+                "        \"oldlabelPrice\": \"0.01\",\n" +
+                "        \"shopId\": 3772,\n" +
+                "        \"skuId\": 4686,\n" +
+                "        \"skuName\": \"商品名称:18K红钻石（白）戒指;成色:18K红;品类:戒指;石类:钻石（白）;尺寸:66;主石重(ct):0.002;副石重(ct):0;净金重(g):0.055;总重量:5\",\n" +
+                "        \"snatchDiscount\": \"0.90\",\n" +
+                "        \"snatchIsEnd\": 0,\n" +
+                "        \"snatchShopNumber\": 0,\n" +
+                "        \"snatchShopTotal\": 5,\n" +
+                "        \"stockNum\": 10\n" +
+                "    },\n" +
+                "    {\n" +
+                "        \"activityPrice\": \"0.01\",\n" +
+                "        \"goodsId\": 6030,\n" +
+                "        \"goodsName\": \"444444444444444\",\n" +
+                "        \"labelPrice\": \"0.01\",\n" +
+                "        \"masterPicUrl\": \"http://dotnettest.jpark.vip/13c4ce0734994c73948da8e95e72d5b9?imageView2/2/h/336\",\n" +
+                "        \"oldlabelPrice\": \"0.01\",\n" +
+                "        \"shopId\": 3760,\n" +
+                "        \"skuId\": 4671,\n" +
+                "        \"skuName\": \"商品名称:18K红钻石（白）戒指;成色:18K红;品类:戒指;石类:钻石（白）;尺寸:66;主石重(ct):0.002;副石重(ct):0;净金重(g):0.055;总重量:5\",\n" +
+                "        \"snatchDiscount\": \"0.90\",\n" +
+                "        \"snatchIsEnd\": 0,\n" +
+                "        \"snatchShopNumber\": 0,\n" +
+                "        \"snatchShopTotal\": 1,\n" +
+                "        \"stockNum\": 2\n" +
+                "    }\n" +
+                "]"</string>
+
+</resources>
